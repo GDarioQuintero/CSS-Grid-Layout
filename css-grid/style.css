@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+}
+
+.main-container {
+    display: grid;
+    grid-template: repeat(5, 100px) / repeat(5, 100px);
+    gap: 10px;
+    grid-template-areas: 
+    "header header header header header"
+    "header header header header header"
+    "main main . sidebar sidebar"
+    "main main . sidebar sidebar"
+    "footer footer footer footer footer";
+    font-size: 20px;
+    /*justify-items: center;/*Alinea elementos del contenedor horizontal*/
+    /*align-items: center;/*Alinea elementos del contenedor vertical*/
+    place-items: center; /*La union de los anteriores*/
+    justify-content: space-around;/*Alinean el contenedor horizontal*/
+    align-content: center;/*Alinean el contenedor vertical*/
+}
+
+.c {
+    width: 50px;
+    height: 50px;
+    background-color: hotpink;
+    text-align: center;
+    padding-top: 10px;
+}
+

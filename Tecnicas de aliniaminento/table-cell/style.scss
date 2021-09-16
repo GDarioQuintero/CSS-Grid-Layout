@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.main-container{
+    width: 540px;
+    height: 540px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.6rem;
+    background-color: gold;
+}
+.elemento{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+}
+.elemento1{
+    @extend .elemento;
+    background-color: greenyellow;
+    display: inline-block;
+}
+.elemento2{
+    @extend .elemento;
+    background-color: pink;
+    display: inline-block;
+}
+.elemento3{
+    @extend .elemento;
+    background-color: palegreen;
+    display: inline-block;
+}
+.container{
+    width: 180px;
+    height: 180px;
+    border: 1px solid white;
+}
+.c1{
+    @extend .container;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;    
+}
+.c2{
+    @extend .container;
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+}
+.c3{
+    @extend .container;
+    display: table-cell;
+    text-align: left;
+    vertical-align: bottom;
+}
+.c4{
+    @extend .container;
+    display: table-cell;
+    text-align: center;
+    vertical-align: top;
+}
+.c5{
+    @extend .container;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.c6{
+    @extend .container;
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+}
+.c7{
+    @extend .container;
+    display: table-cell;
+    text-align: right;
+    vertical-align: top;
+}
+.c8{
+    @extend .container;
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+}
+.c9{
+    @extend .container;
+    display: table-cell;
+    text-align: right;
+    vertical-align: bottom;
+}

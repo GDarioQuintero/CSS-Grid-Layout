@@ -1,0 +1,115 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-container {
+  width: 540px;
+  height: 540px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+  background-color: aqua;
+}
+
+.container, .main-container__1, .main-container__2, .main-container__3 {
+  width: 180px;
+  height: 180px;
+  border: 1px solid white;
+}
+
+.element, .div-1, .div-2, .div-3, .div-4, .div-5, .div-6, .div-7, .div-8, .div-9 {
+  width: 60px;
+  height: 60px;
+  padding: 15px 0px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.main-container__1 {
+  text-align: left;
+  line-height: 180px;
+}
+
+.div-1 {
+  background-color: wheat;
+  display: inline-block;
+  line-height: 45px;
+  vertical-align: top;
+}
+
+.div-2 {
+  background-color: wheat;
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.div-3 {
+  background-color: wheat;
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: bottom;
+}
+
+.main-container__2 {
+  text-align: center;
+  line-height: 180px;
+}
+
+.div-4 {
+  background-color: pink;
+  display: inline-block;
+  line-height: 45px;
+  vertical-align: top;
+}
+
+.div-5 {
+  background-color: pink;
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.div-6 {
+  background-color: pink;
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: bottom;
+}
+
+.main-container__3 {
+  text-align: right;
+  line-height: 180px;
+}
+
+.div-7 {
+  background-color: greenyellow;
+  display: inline-block;
+  line-height: 45px;
+  vertical-align: top;
+}
+
+.div-8 {
+  background-color: greenyellow;
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.div-9 {
+  background-color: greenyellow;
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: bottom;
+}
+/*# sourceMappingURL=style.css.map */

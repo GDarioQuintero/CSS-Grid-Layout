@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+.main-container {
+    width: 540px;
+    height: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: aqua;
+}
+.container {
+    width: 180px;
+    height: 180px;
+    border: 1px solid white;
+}
+.element{
+    width: 60px;
+    height: 60px;
+    padding: 15px 0px;
+    font-size: 1.5rem;
+    text-align: center
+}
+.main-container__1 {
+    @extend .container;
+    text-align: left;
+    line-height: 180px;
+}
+.div-1 {
+    @extend .element;
+    background-color: wheat;
+    display: inline-block;
+    line-height: 45px;
+    vertical-align: top;
+}
+.div-2 {
+    @extend .element;
+    background-color: wheat;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.div-3 {
+    @extend .element;
+    background-color: wheat;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: bottom;
+}
+.main-container__2 {
+    @extend .container;
+    text-align: center;
+    line-height: 180px;
+}
+.div-4 {
+    @extend .element;
+    background-color: pink;
+    display: inline-block;
+    line-height: 45px;
+    vertical-align: top;
+}
+.div-5 {
+    @extend .element;
+    background-color: pink;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.div-6 {
+    @extend .element;
+    background-color: pink;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: bottom;
+}
+.main-container__3 {
+    @extend .container;
+    text-align: right;
+    line-height: 180px;
+}
+.div-7 {
+    @extend .element;
+    background-color: greenyellow;
+    display: inline-block;
+    line-height: 45px;
+    vertical-align: top;
+}
+.div-8 {
+    @extend .element;
+    background-color: greenyellow;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.div-9 {
+    @extend .element;
+    background-color: greenyellow;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: bottom;
+}
+

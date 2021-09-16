@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+.main-container {
+    width: 540px;
+    height: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: aqua;
+}
+.container {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    border: 1px solid white;
+}
+.element{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.element-1 {
+    @extend .element;
+    background-color: wheat;
+}
+.element-2 {
+    @extend .element;
+    background-color: gold;
+}
+.element-3 {
+    @extend .element;
+    background-color: greenyellow;
+}
+.container-1 {
+    @extend .container;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.container-2 {
+    @extend .container;
+    justify-content: flex-start;
+    align-items: center
+}
+.container-3 {
+    @extend .container;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.container-4 {
+    @extend .container;
+    justify-content: center;
+    align-items: flex-start;
+}
+.container-5 {
+    @extend .container;
+    justify-content: center;
+    align-items: center;
+}
+.container-6 {
+    @extend .container;
+    justify-content: center;
+    align-items: flex-end;
+}
+.container-7 {
+    @extend .container;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.container-8 {
+    @extend .container;
+    justify-content: flex-end;
+    align-items: center;
+}
+.container-9 {
+    @extend .container;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

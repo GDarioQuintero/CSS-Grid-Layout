@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+.main-container {
+    width: 540px;
+    height: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: aqua;
+}
+.container {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    border: 1px solid white;
+}
+.element{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.div-1 {
+    @extend .element;
+    background-color: wheat;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.div-2 {
+    @extend .element;
+    background-color: wheat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.div-3 {
+    @extend .element;
+    background-color: wheat;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    transform: translate(0, -100%);
+}
+.div-4 {
+    @extend .element;
+    background-color: pink;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+}
+.div-5 {
+    @extend .element;
+    background-color: pink;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.div-6 {
+    @extend .element;
+    background-color: pink;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -100%);
+}
+.div-7 {
+    @extend .element;
+    background-color: greenyellow;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    transform: translate(-100%, 0);
+}
+.div-8 {
+    @extend .element;
+    background-color: greenyellow;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translate(-100%, -50%);
+}
+.div-9 {
+    @extend .element;
+    background-color: greenyellow;
+    position: absolute;
+    left: 100%;
+    top: 100%;
+    transform: translate(-100%, -100%);
+}
+
